@@ -5,8 +5,11 @@
 /* https://flatuicolors.com/palette/defo */
 
   html, body {
-    background: #222;
-    text-transform: uppercase;
+    background-image:url(Background-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover, contain;
+    background-attachment: scroll;
     font-family: sans-serif;
   }
   h1 {
