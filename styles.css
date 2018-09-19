@@ -5,11 +5,7 @@
 /* https://flatuicolors.com/palette/defo */
 
   html, body {
-    background-image:url(Background-01.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover, contain;
-    background-attachment: scroll;
+    background-color: black;
     font-family: sans-serif;
   }
   h1 {
@@ -21,9 +17,16 @@
     text-align: center;
   }
   .container {
+    background-image:url(Background-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    background-attachment: inherit;
+
     display: grid;
-    grid-gap: 2px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2px
+    grid-attachment: fixed;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-items: stretch;
   }
   .container2 {
